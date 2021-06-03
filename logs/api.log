@@ -1497,3 +1497,37 @@
 02-06-2021 18:03:11.820 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ekonomik u\303\247u\305\237 se\303\247ilir" parameterizedStepValue:"Ekonomik u\303\247u\305\237 se\303\247ilir" > > 
 02-06-2021 18:03:11.821 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Devam butonuna t\304\261klan\304\261r" > 
 02-06-2021 18:03:11.823 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Devam butonuna t\304\261klan\304\261r" parameterizedStepValue:"Devam butonuna t\304\261klan\304\261r" > > 
+03-06-2021 16:30:41.728 [Gauge] [INFO] Watching directory: C:\Users\testinium\Documents\GitHub\DenemeThy\specs
+03-06-2021 16:30:41.731 [Gauge] [DEBUG] Found 1 files
+03-06-2021 16:30:41.733 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-06-2021 16:30:41.753 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-06-2021 16:30:41.753 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Documents\GitHub\DenemeThy\specs\example.spec
+03-06-2021 16:30:41.753 [Gauge] [INFO] Initializing steps cache with 1 steps
+03-06-2021 16:30:41.753 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53166
+03-06-2021 16:30:42.314 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+03-06-2021 16:30:42.330 [Gauge] [DEBUG] Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\testinium\\AppData\\Roaming\\gauge\\plugins\\java\\0.7.3\\libs" > 
+03-06-2021 16:31:06.332 [Gauge] [INFO] Watching directory: C:\Users\testinium\Documents\GitHub\DenemeThy\specs
+03-06-2021 16:31:06.332 [Gauge] [DEBUG] Found 1 files
+03-06-2021 16:31:06.334 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-06-2021 16:31:06.336 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-06-2021 16:31:06.336 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Documents\GitHub\DenemeThy\specs\example.spec
+03-06-2021 16:31:06.336 [Gauge] [INFO] Initializing steps cache with 1 steps
+03-06-2021 16:31:06.336 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53185
+03-06-2021 16:33:13.180 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Gelen izinleri kabul et" > 
+03-06-2021 16:33:13.184 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Gelen izinleri kabul et" parameterizedStepValue:"Gelen izinleri kabul et" > > 
+03-06-2021 16:33:13.223 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Bilet al butonuna t\304\261klan\304\261r" > 
+03-06-2021 16:33:13.224 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Bilet al butonuna t\304\261klan\304\261r" parameterizedStepValue:"Bilet al butonuna t\304\261klan\304\261r" > > 
+03-06-2021 16:33:13.232 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tek y\303\266n u\303\247u\305\237 se\303\247ilir" > 
+03-06-2021 16:33:13.232 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tek y\303\266n u\303\247u\305\237 se\303\247ilir" parameterizedStepValue:"Tek y\303\266n u\303\247u\305\237 se\303\247ilir" > > 
+03-06-2021 16:33:13.318 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"G\303\274zergah SAW to ESB olarak girilir" > 
+03-06-2021 16:33:13.318 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"G\303\274zergah SAW to ESB olarak girilir" parameterizedStepValue:"G\303\274zergah SAW to ESB olarak girilir" > > 
+03-06-2021 16:33:13.334 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tarih 2 g\303\274n sonras\304\261na se\303\247ilir" > 
+03-06-2021 16:33:13.334 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tarih 2 g\303\274n sonras\304\261na se\303\247ilir" parameterizedStepValue:"Tarih 2 g\303\274n sonras\304\261na se\303\247ilir" > > 
+03-06-2021 16:33:13.338 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Yolcu say\304\261s\304\261 se\303\247ilir" > 
+03-06-2021 16:33:13.339 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Yolcu say\304\261s\304\261 se\303\247ilir" parameterizedStepValue:"Yolcu say\304\261s\304\261 se\303\247ilir" > > 
+03-06-2021 16:33:13.343 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"U\303\247u\305\237 Ara butonuna t\304\261klan\304\261r" > 
+03-06-2021 16:33:13.343 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"U\303\247u\305\237 Ara butonuna t\304\261klan\304\261r" parameterizedStepValue:"U\303\247u\305\237 Ara butonuna t\304\261klan\304\261r" > > 
+03-06-2021 16:33:13.350 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ekonomik u\303\247u\305\237 se\303\247ilir" > 
+03-06-2021 16:33:13.350 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ekonomik u\303\247u\305\237 se\303\247ilir" parameterizedStepValue:"Ekonomik u\303\247u\305\237 se\303\247ilir" > > 
+03-06-2021 16:33:13.355 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Devam butonuna t\304\261klan\304\261r" > 
+03-06-2021 16:33:13.355 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Devam butonuna t\304\261klan\304\261r" parameterizedStepValue:"Devam butonuna t\304\261klan\304\261r" > > 

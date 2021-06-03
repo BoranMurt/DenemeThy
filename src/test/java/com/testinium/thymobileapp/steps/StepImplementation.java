@@ -4,15 +4,21 @@ import com.thoughtworks.gauge.*;
 import com.testinium.thymobileapp.constants.Constants;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class StepImplementation extends HookImp {
 
+    WebDriverWait wait;
     @Step({"Gelen izinleri kabul et"})
         public void konumIzniKabulu(){
-        MobileElement el1 = (MobileElement) appiumDriver
+        /*MobileElement el1 = (MobileElement) appiumDriver
                 .findElementById(Constants.IZIN_VER);
-        el1.click();
+        el1.click();*/
+        //wait.until(ExpectedConditions.elementToBeClickable(By.id(Constants.CEREZLER)));
         MobileElement el2 = (MobileElement) appiumDriver
                 .findElementById(Constants.CEREZLER);
         el2.click();
@@ -20,12 +26,14 @@ public class StepImplementation extends HookImp {
     }
     @Step({"Bilet al butonuna tıklanır"})
     public void biletAlButonu(){
+        //wait.until(ExpectedConditions.elementToBeClickable(By.id(Constants.BILET_AL)));
         MobileElement el3 = (MobileElement) appiumDriver
                 .findElementById(Constants.BILET_AL);
         el3.click();
     }
     @Step({"Tek yön uçuş seçilir"})
     public void yonSecme(){
+        //wait.until(ExpectedConditions.elementToBeClickable(By.id(Constants.TEK_YON)));
         MobileElement el1 = (MobileElement) appiumDriver
                 .findElementById(Constants.TEK_YON);
         el1.click();

@@ -23,6 +23,7 @@ public class HookImp {
         desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE,"com.turkishairlines.mobile");
         desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY,"com.turkishairlines.mobile.ui.ACSplash");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
+        desiredCapabilities.setCapability("autoGrantPermissions", "true");
         URL url =new URL("http://0.0.0.0:4723/wd/hub");
         appiumDriver = new AndroidDriver(url,desiredCapabilities);
 
